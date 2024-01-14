@@ -18,7 +18,7 @@ trainer.train([
   ])
 
 print("What type of interface you want?")
-interface=int(input("1.TERMINAL 2.WEB USING FLASK"))
+interface=int(input("1.TERMINAL 2.WEB USING FLASK\n"))
 
 if(interface==1):
     name=input("Enter Your Name: ")
